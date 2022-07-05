@@ -6,6 +6,8 @@
 
 # How to use it ?
 
+![alt text](https://github.com/anand346/randomImageGen/blob/master/demo/demo.png?raw=true)
+
 ## Download the library
 
 ### 1. Using npm
