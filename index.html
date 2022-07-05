@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Random Image Generator</title>
+<style>
+    #image{
+        margin: 100px auto 30px auto;
+        width:500px;
+        height:300px;
+        border:2px solid black;
+        border-radius: 10px;
+        position:relative;
+        overflow: hidden;
+    }
+    #image img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+    .buttons{
+        width:500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+</head>
+<body>
+    <center>
+        <div id="image">
+            <img id = "random_image" src="" alt="">
+        </div>
+        <div class="buttons">
+            <div class="button_prev btn btn-primary">Prev</div>
+            <div class="button_next btn btn-success">Next</div>
+        </div>
+    </center>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+<script>
+    randomImageGen.init('random_image','button_next','button_prev','beach');
+</script>
+</body>
+</html>
