@@ -24,5 +24,5 @@
 
 ### 2. Initialize the library
     <script>
-        randomImageGen.init('img tag id','next button class','prev button class','topic')'
+        randomImageGen.init('img tag id','next button class','prev button class','topic');
     </script>
