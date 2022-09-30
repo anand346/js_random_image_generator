@@ -11,7 +11,7 @@
 ## Download the library
 
 ### 1. Using npm
-    npm i randomImageGen
+    npm i javascript-image-generator
 
 ### 2. Cloning git repository
     git clone https://github.com/anand346/randomImageGen.git
@@ -20,7 +20,7 @@
 ## Include in html file
 
 ### 1. Include the js file in your html file
-    <script src = 'randomeImageGen/index.js'></script>
+    <script src = 'node_modules/javascript-image-generator/index.js'></script>
 
 ### 2. Initialize the library
     <script>
